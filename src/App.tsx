@@ -22,7 +22,7 @@ const App = () => {
     setQuizFeedback(`You scored ${score}/3`);
   };
 
-  const handlePromptChange = (e) => {
+  const handlePromptChange = (e:any) => {
     setUserPrompt(e.target.value);
     setShowAnalysis(false);
   };
